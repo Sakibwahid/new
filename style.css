@@ -1,0 +1,72 @@
+/* Add your custom CSS styles here */
+
+body {
+    background-color: #f8f9fa;
+    max-width: 100%;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #313154;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #4b0c40, #1752a0);
+    margin-top: 30px;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+/* Add CSS styles for the player list */
+.list-group {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+/* Increase the font size for the random player's name */
+.random-player {
+    font-size: 20px; /* Adjust the font size as needed */
+}
+#playerImage {
+width: 200%
+}
+
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Add CSS styles for the random position generator */
+#generatePositionButton {
+    background: linear-gradient(135deg, #4b0c40, #1752a0);
+    border: none;
+    margin-top: 20px;
+    color: white;
+}
+
+#generatePositionButton:hover {
+    background: linear-gradient(135deg, #1752a0, #4b0c40);
+}
+
+#randomPosition {
+    color: #313154;
+    margin-top: 10px;
+    text-align: center;
+}
